@@ -99,6 +99,7 @@ erDiagram
         string representative
         string phone
     }
+    BOOK_CATEGORIES ||--o{ CATEGORIES : categories
     BOOK_CATEGORIES {
         int book_id PK, FK
         int category_id PK, FK
